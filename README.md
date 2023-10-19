@@ -60,6 +60,8 @@ This app is built with HTML, CSS, and JavaScript.
 > - Home page
 > - Services
 > - About Us page
+> - Feeback page
+> - Add feedback
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
