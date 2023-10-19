@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Submission Successful</title>
+    <link href="assets/css/success.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Your feedback has been received!</h1>
+    <p>Thank you for providing your valuable feedback.</p>
+    <button id="submitAnotherFeedback">Submit another feedback</button>
+ 
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          const submitButton = document.getElementById("submitAnotherFeedback");
+          
+          // Add a click event listener to the button
+          submitButton.addEventListener("click", function () {
+            // Navigate to the "index.html" file
+            window.location.href = "index.html#feedback";
+          });
+        });
+      </script>
+      
+</body>
+</html>

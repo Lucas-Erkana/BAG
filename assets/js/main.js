@@ -260,13 +260,5 @@
 
 })()
 
-document.addEventListener('DOMContentLoaded', function() {
-  const carouselEl = document.querySelector('#missionVisionCarousel');
-  const carousel = new bootstrap.Carousel(carouselEl, {
-    interval: 4000, // Set the slide interval to 2 seconds
-    pause: 'hover',
-    wrap: true
-  });
-});
 
 

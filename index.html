@@ -53,6 +53,7 @@
               <ul class="bg-transparent text-center">
                 <li><a class="nav-link scrollto active " href="#hero">Home</a></li>
                 <li><a class="nav-link scrollto center" href="#about">About</a></li>
+                <li><a class="nav-link scrollto center" href="#feedback">Feedback</a></li>
                 <!-- Add more menu items as needed -->
               </ul>
             </div>
@@ -170,8 +171,27 @@
     
     <!-- End About Section -->
 
+    <!-- ======= Feedback Section ======= -->
 
-
+    <section id="feedback" class="feedback">
+      <div class="section-title">
+        <h2>Feedback</h2>
+        <p>We value your feedback, as it plays a pivotal role in enhancing our training modules and user experience, and we invite you to share your insights by filling out the feedback form below</p>
+      </div>
+      <form id="feedbackForm">
+        <label for="userName">Name:</label>
+        <input type="text" id="userName" name="userName" required>
+    
+        <label for="userEmail">Email:</label>
+        <input type="email" id="userEmail" name="userEmail" required>
+    
+        <label for="feedbackText">Feedback:</label>
+        <textarea id="feedbackText" name="feedbackText" required></textarea>
+    
+        <input type="submit" value="Submit Feedback">
+    </form>
+    </section>
+ <!-- End FeedbackSection -->
 
   </main><!-- End #main -->
 
@@ -239,6 +259,23 @@
     // Start typing the initial text
     typeWriter(textArray[currentIndex], introTextElement, 0);
   });
+
+  document.addEventListener('DOMContentLoaded', function() {
+  const carouselEl = document.querySelector('#missionVisionCarousel');
+  const carousel = new bootstrap.Carousel(carouselEl, {
+    interval: 4000, // Set the slide interval to 2 seconds
+    pause: 'hover',
+    wrap: true
+  });
+});
+
+document.getElementById("feedbackForm").addEventListener("submit", function(event){
+  event.preventDefault();
+
+  // You can add more actions here, like sending the feedback data to a server
+
+  window.location.href = "success.html"; // Redirect to success page
+});
 </script>
 </body>
 

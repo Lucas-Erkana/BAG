@@ -1,0 +1,44 @@
+/*--------------------------------------------------------------
+# Success.html
+--------------------------------------------------------------*/
+
+/* style.css */
+
+/* Apply styles to the body to create a blue background */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+  }
+  
+  /* Center align the content */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  
+  /* Style the button */
+  #submitAnotherFeedback {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #fff; /* White button background */
+    color: #007bff; /* Blue button text color */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #submitAnotherFeedback:hover {
+    background-color: #ddd; /* Light gray background on hover */
+  }
+  
