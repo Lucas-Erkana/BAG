@@ -1,6 +1,3 @@
-Sure! Here's an example of a Responsive Design Creation portfolio:
-
-```markdown
 <a name="readme-top"></a>
 
 <h1 align='center'>Responsive Design Creation</h1>
@@ -34,12 +31,13 @@ Sure! Here's an example of a Responsive Design Creation portfolio:
 This Responsive Design Creation portfolio showcases my skills and experience in creating responsive designs using HTML, CSS, and JavaScript. It includes projects I have worked on, my education, and relevant work experience. The portfolio is designed to adapt to different screen sizes and provide an optimal viewing experience on various devices.
 
 ### App Screenshot
-![Portfolio](https://github.com/yourusername/yourrepository/assets/screenshot.png)
+
+![bagDemo](https://github.com/Lucas-Erkana/BAG/assets/41428579/21522ef7-cb88-4f53-a178-d88e9d6d509d)
 
 
 ## Live Demo
 
-To see this project's live demo, please click [here](https://example.com/).
+To see this project's live demo, please click [here](ttps://lucaserkanabag.netlify.app/).
 
 ## 🛠 Built With <a name="built-with"></a>
 
